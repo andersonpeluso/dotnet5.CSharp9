@@ -1,4 +1,9 @@
-﻿var item = System.IO.Directory.GetFiles(@"c:\temp\filesCloud");
+﻿
+
+// Retirada do método static void Main(string[] args) para rodar.
+
+
+var item = System.IO.Directory.GetFiles(@"c:\temp\filesCloud");
 
 for (int i = 0; i < item.Length; i++)
 {

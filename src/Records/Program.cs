@@ -18,15 +18,15 @@ namespace Records
             //Construtor
             var clientClass2 = new ClientClass(id: 1, nome: "Anderson");
 
+            // Compara todas as propriedades do objeto
             if (clientClass1.Equals(clientClass2))
                 Console.WriteLine("True");
             else
                 Console.WriteLine("False");
 
-            //Erro
-            //ClientClass clientClass99 = clientClass2 with { Nome = "Mario" };
+            // Erro
+            // ClientClass clientClass99 = clientClass2 with { Nome = "Mario" };
 
-            //////
 
             var clientRecord = new ClientRecord
             {
@@ -35,7 +35,7 @@ namespace Records
 
             ClientRecord clientRecord1 = new(id: 1, nome: "Anderson");
 
-
+            // Cria com o novo nome.
             ClientRecord clienteWith = clientRecord1 with { Nome = "Carlos" };
 
             clienteWith.Nome = "";
@@ -44,8 +44,6 @@ namespace Records
                 Console.WriteLine("True");
             else
                 Console.WriteLine("False");
-
-
         }
     }
 
