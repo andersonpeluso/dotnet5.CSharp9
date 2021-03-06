@@ -6,4 +6,4 @@ for (int i = 0; i < item.Length; i++)
 }
 
 System.Console.WriteLine($"Data de verificação:{System.DateTime.Now:dd/MM/yyyy}");
-System.Environment.Exit(0) //sucesso
+System.Environment.Exit(0); //sucesso

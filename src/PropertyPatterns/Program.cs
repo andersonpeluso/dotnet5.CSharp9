@@ -19,7 +19,8 @@ namespace PropertyPatterns
             if (pessoa.Id > 20 && pessoa.Nome.StartsWith("b"))
                 Console.WriteLine($"{pessoa.Id} - {pessoa.Nome}");
 
-            if (pessoa is {Id: > 20, Nome: "João", Idade: < 60 })
+            // Melhoria
+            if (pessoa is { Id: > 20, Nome: "João", Idade: < 60 })
                 Console.WriteLine($"{pessoa.Id} - {pessoa.Nome}");
         }
     }

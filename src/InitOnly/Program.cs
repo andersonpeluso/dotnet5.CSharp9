@@ -57,7 +57,8 @@ namespace InitOnly
     //4
     public class Bairro
     {
-        private readonly string _rua;
+        //private readonly string _rua;
+        private  string _rua;
 
         public string Rua
         {

@@ -26,7 +26,7 @@ namespace TragetType
             (int a, int b) t1 = new();
 
 
-            Atleta atleta = new(3, "Felipe");
+            Atleta atleta = new(3, "Anderson");
 
             var atletta1 = new List<Atleta>
             {

@@ -16,7 +16,7 @@ namespace Records
             };
 
             //Construtor
-            var clientClass2 = new ClientClass(id: 1, nome: "Felipe");
+            var clientClass2 = new ClientClass(id: 1, nome: "Anderson");
 
             if (clientClass1.Equals(clientClass2))
                 Console.WriteLine("True");
@@ -33,7 +33,7 @@ namespace Records
                 Id = 1
             };
 
-            ClientRecord clientRecord1 = new(id: 1, nome: "Felipe");
+            ClientRecord clientRecord1 = new(id: 1, nome: "Anderson");
 
 
             ClientRecord clienteWith = clientRecord1 with { Nome = "Carlos" };
