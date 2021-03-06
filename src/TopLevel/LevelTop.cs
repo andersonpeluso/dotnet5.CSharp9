@@ -1,7 +1,4 @@
-﻿
-
-// Retirada do método static void Main(string[] args) para rodar.
-
+﻿// Retirada do método static void Main(string[] args) para rodar.
 
 var item = System.IO.Directory.GetFiles(@"c:\temp\filesCloud");
 
