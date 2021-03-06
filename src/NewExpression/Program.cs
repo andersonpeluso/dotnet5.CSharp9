@@ -47,7 +47,6 @@ namespace NewExpression
     {
         public Cidade()
         {
-
         }
 
         public Cidade(int id, int qtdBares, DateTime fundacao, bool temPraia)
@@ -66,8 +65,7 @@ namespace NewExpression
 
         public bool TemPraia { get; set; }
 
-        public void SetQtdBar(int valor) =>
-            QtdBares = valor;
+        public void SetQtdBar(int valor) => QtdBares = valor;
     }
 
     public class Automovel { }

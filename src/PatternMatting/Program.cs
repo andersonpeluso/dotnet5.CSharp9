@@ -18,9 +18,7 @@ namespace PatternMatting
                         Console.WriteLine($"{item.GetType()} {item}");
                 }
                 else
-                {
                     Console.WriteLine("obj null");
-                }
             }
         }
 

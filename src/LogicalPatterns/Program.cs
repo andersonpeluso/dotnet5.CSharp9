@@ -19,7 +19,6 @@ namespace LogicalPatterns
                     Console.WriteLine($"{itemHora} = { AnalisarHorasTrabalhadas(itemHora)}");
                 });
 
-
             var result = AnalisarPermissao("123", "", "");
 
             Console.WriteLine(result.ToString());
@@ -37,27 +36,6 @@ namespace LogicalPatterns
                 return "+ 2 horas no banco e esse mes vc ta com dinheiro pra pagar o meu almoço.";
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         public static string AnalisarHorasTrabalhadas(int horas) =>
             horas switch
             {
@@ -67,13 +45,14 @@ namespace LogicalPatterns
                 _ => "+ 2 horas no banco e esse mes vc ta com dinheiro pra pagar o meu almoço."
             };
 
-
         public static bool AnalisarPermissao(string ApiKey, string ClientId, string Token) =>
             (ApiKey, ClientId, Token) switch
             {
+                // Verifica um por vez.
+
                 ("123", _, _) => true,
                 (_, "123", _) => true,
-                (_, _, "123") => true, 
+                (_, _, "123") => true,
                 _ => false
             };
     }

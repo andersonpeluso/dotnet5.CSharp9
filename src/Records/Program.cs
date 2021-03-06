@@ -27,7 +27,6 @@ namespace Records
             // Erro
             // ClientClass clientClass99 = clientClass2 with { Nome = "Mario" };
 
-
             var clientRecord = new ClientRecord
             {
                 Id = 1
